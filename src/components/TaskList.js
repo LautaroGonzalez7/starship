@@ -1,5 +1,5 @@
 import React from 'react';
-import Task from "./Task";
+import GetTokenComponent from "./GetTokenComponent";
 
 class TaskList extends React.Component {
     constructor(props) {
@@ -15,7 +15,7 @@ class TaskList extends React.Component {
     renderTasksInList = () => {
         const JSXArray = this.state.list.map(item => {
             return (
-                <Task onChangeStatus={this.deleteTask()} description={item.description} done={item.done} id={item.id}/>
+                <GetTokenComponent onChangeStatus={this.deleteTask()} description={item.description} done={item.done} id={item.id}/>
             )
         })
         return JSXArray;

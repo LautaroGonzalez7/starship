@@ -1,0 +1,35 @@
+.logo{
+    background: url('http://assets.stickpng.com/thumbs/59b5bb466dbe923c39853e00.png')center/contain no-repeat;
+    height: 150px;
+    width: 175px;
+}
+
+.dark-container{
+    min-height: 100vh;
+    background: #222;
+}
+
+.justify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-btn{
+    text-decoration: none;
+    padding: 50px;
+    width: 100%;
+    font-size: 35px;
+}
+
+.search-artist{
+    height: 200px;
+}
+
+.search-artist-box{
+    width: 700px;
+}
+
+.dark-nav{
+    background: #222;
+}
